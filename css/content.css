@@ -13,12 +13,18 @@ p{
   text-align: justify;
 }
 
+/* IDEA: main container */
+.main-container{
+  display: flex;
+}
+
 /* IDEA: header : full screen intro*/
-.full-screen-intro{
+.full-img-intro{
+  display: flex;
   width:100%;
   background-repeat: no-repeat;
   background-size:cover;
 }
-img{
-
+.full-img-intro img{
+  width:100%;
 }
