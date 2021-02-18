@@ -15,12 +15,27 @@ p{
 
 /* IDEA: main container */
 .main-container{
-  min-height: 100vh;
+display: flex;
+width:100%;
 }
 
 /* IDEA: header : full screen intro*/
 .full-img-intro{
-  width:100%;
-  background-repeat: no-repeat;
-  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  background-size: cover;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 80px;
+}
+.full-img-intro h1{
+  font-size: 100px;
+  color:rgb(230,230,230);
+  font-weight: bolder;
+}
+.full-img-intro p{
+  font-size:30px;
+  color:white;
+  padding: 0 10px;
 }
