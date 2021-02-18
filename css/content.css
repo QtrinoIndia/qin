@@ -15,7 +15,7 @@ p{
 
 /* IDEA: main container */
 .main-container{
-  min-width: 100vh;
+  min-height: 100vh;
 }
 
 /* IDEA: header : full screen intro*/
