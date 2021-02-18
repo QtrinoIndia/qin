@@ -16,6 +16,7 @@ p{
 /* IDEA: main container */
 .main-container{
   min-height: 100vh;
+  background-color: blue
 }
 
 /* IDEA: header : full screen intro*/
