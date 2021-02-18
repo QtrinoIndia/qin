@@ -20,7 +20,7 @@ width:100%;
 }
 
 /* IDEA: header : full screen intro*/
-/*.full-img-intro{
+.full-img-intro{
   display:flex;
   flex-direction: column;
   width: 100%;
@@ -37,4 +37,4 @@ width:100%;
   font-size:30px;
   color:white;
   padding: 0 10px;
-}*/
+}
