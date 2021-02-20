@@ -132,6 +132,14 @@ footer{
   font-family: verdana,sans-serif;
 
 }
+footer a:link, a:visited {
+
+  color: white;
+  text-decoration: none;
+
+}
+
+
 .help{
   width: 25%;
   display:flex;

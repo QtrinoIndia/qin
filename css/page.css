@@ -3,22 +3,22 @@
   display:flex;
 }
 .lc{
-  width:16%;
+  width:18%;
   background-color: rgb(240,240,240);;
   order:1;
 }
 .rc{
-  width:16%;
+  width:18%;
   background-color: rgb(240,240,240);;
   order: 3;
 }
 .lsb{
-  width:16%;
+  width:18%;
   background-color: rgb(240,240,240);
   order: 1;
 }
 .rsb{
-  width: 16%;
+  width: 18%;
   background-color: rgb(240,240,240);
   order:3
 }
@@ -27,17 +27,17 @@
   display:flex;
 }
 .intro{
-  width:68%;
+  width:64%;
   order:2;
-  padding: 0px 20px;
+  padding: 0px 30px;
 }
 .content{
-  width:68%;
+  width:64%;
   order: 2;
-  padding: 0px 20px;
+  padding: 0px 30px;
 }
 
-@media(max-width: 858px){
+@media(max-width: 900px){
   .row-container-1,.row-container-2{
     flex-direction: column;
     width: 100%;
@@ -47,5 +47,7 @@
   }
   .lsb,.rsb,.intro,.content{
     width: 100%;
+    padding: 0 15px;
   }
+  
 }
