@@ -64,6 +64,9 @@ a.active{
   background:#16a5b5;
   transition: .5s;
 }
+.contact{
+  color:black;
+}
 a.contact:hover{
   color:white;
   background:#16a5b5;
