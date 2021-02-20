@@ -1,8 +1,10 @@
-h1{
+/* IDEA: all the headings */
+h1, h2, h3, h4, h6, h6{
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 1px;
   font-weight: normal;
 }
+/* IDEA: pargraph: */
 p{
   font-family: Helvetica, sans-serif;
   font-size: 18px;
@@ -10,31 +12,83 @@ p{
   line-height: 1.5;
   word-spacing: 1px;
   font-weight: lighter;
+}
+.ewt p{
   text-align: justify;
 }
 
-/* IDEA: main container */
-.main-container{
-display: flex;
-width:100%;
+/* IDEA: BUTTONs */
+
+/* NOTE: 1.primary */
+button{
+  background-color: #16a5b5;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: verdana,sans-serif;
+  cursor: pointer;
+  padding: 10px;
+  margin: 7px;
+}
+button:hover{
+  background-color: #1cc4d6;
+}
+button:focus{
+    outline:none !important;
+}
+/* IDEA: button end */
+
+
+
+/* IDEA: full image intro left */
+.fiil{
+  background-color: blue;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items:center;
+}
+.fiil .txt-btn{
+  margin: 80px;
+  color: white;
+}
+.fiil .txt-btn h1{
+  font-size: 100px;
+}
+.fiil .txt-btn h2{
+  font-family: Helvetica, sans-serif;
+  margin-left: 6px;
+}
+.fiil .txt-btn p{
+  margin-left: 6px;
+}
+.fiil .txt-btn button{
+  margin: 3px 3px;
+}
+.center p{
+  text-align: center;
 }
 
-/* IDEA: header : full screen intro*/
-.full-img-intro{
-  display:flex;
-  flex-direction: column;
-  width: 100%;
-  background-size: cover;
-  min-height: 100vh;
-  justify-content: center;
-}
-.full-img-intro h1{
-  font-size: 100px;
-  color:rgb(230,230,230);
-  font-weight: bolder;
-}
-.full-img-intro p{
-  font-size:30px;
-  color:white;
-  padding: 0 10px;
+@media(max-width:800px){
+  .fiil{
+    justify-content: center;
+  }
+  .fiil .txt-btn{
+    margin: 20px;
+    text-align: center;
+  }
+  .fiil .txt-btn h1{
+    font-size: 60px;
+  }
+  .fiil .txt-btn h2{
+    font-size: 20px;
+  }
+  .fiil .txt-btn button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
