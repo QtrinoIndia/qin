@@ -2,7 +2,6 @@
 h1, h2, h3, h4, h6, h6{
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 1px;
-  font-weight: normal;
 }
 /* IDEA: pargraph: */
 p{
@@ -19,8 +18,18 @@ p{
 }
 /* IDEA: <a></a> tag */
 
-
-
+.content a:link{
+  color: blue;
+}
+.content a:visited{
+  color:blue;
+}
+.content a:hover{
+  color: green;
+}
+.content a:active{
+  color: blue;
+}
 /* IDEA: BUTTONs */
 
 /* NOTE: 1.primary */

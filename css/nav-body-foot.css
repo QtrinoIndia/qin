@@ -59,7 +59,7 @@ nav ul li a img{
   vertical-align:middle;
 }
 
-a.active{
+nav ul li a.active{
   color:white;
   background:#16a5b5;
   transition: .5s;
