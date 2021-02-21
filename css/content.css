@@ -52,7 +52,6 @@ button a:link, a:visited{
 
 /* IDEA: full image intro left */
 .fiil{
-  background-color: blue;
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
