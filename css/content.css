@@ -6,7 +6,7 @@ h1, h2, h3, h4, h6, h6{
 /* IDEA: pargraph: */
 p{
   font-family: Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   letter-spacing: 0px;
   line-height: 1.5;
   word-spacing: 1px;
@@ -31,7 +31,6 @@ p{
   color: blue;
 }
 /* IDEA: BUTTONs */
-
 /* NOTE: 1.primary */
 button{
   background-color: #16a5b5;
@@ -57,7 +56,11 @@ button a:link, a:visited{
 }
 /* IDEA: button end */
 
-
+/* IDEA:MAIN CONTENT CONTAINER- */
+.content{
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+}
 
 /* IDEA: full image intro left */
 .fiil{
