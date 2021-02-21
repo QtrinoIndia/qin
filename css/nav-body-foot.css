@@ -81,7 +81,8 @@ a.contact:hover{
   margin-right: 50px;
   cursor: pointer;
   vertical-align: middle;
-  display: none
+  display: none;
+  user-select: none;
 }
 #check{
   display: none;
