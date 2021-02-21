@@ -87,7 +87,7 @@ nav ul li a.contact:hover{
   display: none;
 }
 @media(max-width:1000px){
-  label.logo{
+  nav label.logo{
     margin-left: 40px;
   }
   nav ul{
@@ -120,7 +120,7 @@ nav ul li a.contact:hover{
   #check:checked ~ ul{
     left: 0;
   }
-  label.logo{
+  nav label.logo{
     margin-left: 15px;
   }
 }
