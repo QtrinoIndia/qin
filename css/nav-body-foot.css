@@ -64,16 +64,17 @@ a.active{
   background:#16a5b5;
   transition: .5s;
 }
-.contact{
-  color:black;
+a.contact{
+  color:black !important;
 }
 a.contact:hover{
-  color:white;
+  color:white !important;
   background:#16a5b5;
   transition: .5s;
 }
 .checkbtn{
-  font-size: 40px;
+  font-size: 38px;
+  font-family: serif;
   color: black;
   float: right;
   line-height: 60px;
@@ -171,7 +172,7 @@ footer a:link, a:visited {
 }
 footer div a:hover{
   text-decoration: underline;
-  color: white;
+  color: powderblue;
   transition: .5s;
 }
 footer div h4{
