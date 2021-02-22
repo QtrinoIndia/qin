@@ -36,7 +36,7 @@
 }
 .lsb .index{
   background-color: white;
-  padding: 7px;
+  padding: 0px;
   border-radius: 3px;
 }
 .intro{
@@ -99,8 +99,4 @@ a:active{
 .content{
   font-family: Helvetica, sans-serif;
   font-size: 17px;
-}
-/* NOTE: index design */
-.index {
-  list-style-position: inside;
 }

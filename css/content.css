@@ -17,6 +17,11 @@ p{
   word-spacing: 1px;
   font-weight: normal;
 }
+/* IDEA: Text Section */
+/*underline*/
+.underline{
+  text-decoration: underline;
+}
 /* equally width text */
 .ewt{
   text-align: justify;
@@ -84,7 +89,7 @@ button a:link, a:visited{
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
-  height: 95vh;
+  min-height: 95vh;
   align-items:center;
 }
 .fiil .txt-btn{
@@ -156,3 +161,4 @@ button a:link, a:visited{
   color:green;
   border-bottom: 3px solid green;
 }
+/*Table*/

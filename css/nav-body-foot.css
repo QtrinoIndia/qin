@@ -1,13 +1,12 @@
 /*for all elemens:*/
 *{
-  padding:0;
-  margin:0;
   text-decoration-line: none;
   box-sizing: border-box;
 }
 
 /* NOTE: body */
 body{
+  margin: 0;
   background-color:white;
 }
 
@@ -36,6 +35,7 @@ nav label img{
   width:42px;
 }
 nav ul{
+  margin: 0;
   float: right;
   margin-right: 80px;
 }
@@ -198,6 +198,7 @@ footer div h4{
   padding-top: 60px;
 }
 .copyright{
+  margin: 0;
   background-color: #014a5e;
   padding:20px;
   text-align:center;
