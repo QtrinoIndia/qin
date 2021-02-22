@@ -50,13 +50,36 @@ button a:link, a:visited{
 }
 /* IDEA: button end */
 
-/* IDEA:MAIN CONTENT CONTAINER- */
-.content{
-  font-family: Helvetica, sans-serif;
-  font-size: 17px;
+/* NOTE: background section */
+.bg-red{
+  background-color: red;
 }
 
-/* IDEA: full image intro left */
+
+/* NOTE: Image section */
+
+/*cover image*/
+.cover-img{
+  border-radius: 3px;
+}
+.cover-img img{
+  width:100%;
+}
+
+/* Image section end */
+
+/* NOTE: center text */
+.center{
+  text-align: center;
+}
+
+
+
+
+
+/*all content sections*/
+
+/* IDEA: full image intro left - home page*/
 .fiil{
   background-size: cover;
   display: flex;
@@ -107,14 +130,29 @@ button a:link, a:visited{
   }
 }
 
-.cover-img img{
-  width:100%;
-  border-radius: 3px;
-  height: auto;
-  overflow: hidden;
-  background-color: red;
+/* NOTE: page items */
+
+/* Articles */
+.intro-normal{
+  color: black;
+  border-bottom: 3px solid black;
+}
+.intro-attractive{
+  color: red;
+  border-bottom: 3px solid red;
 }
 
-.center{
-  text-align: center;
+.intro-rich{
+  color: slateblue;
+  border-bottom: 3px solid slateblue;
+}
+
+.intro-trust{
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.intro-fresh{
+  color:green;
+  border-bottom: 3px solid green;
 }
