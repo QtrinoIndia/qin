@@ -18,6 +18,9 @@ p{
   font-weight: normal;
 }
 /* IDEA: Text Section */
+hr{
+  background-color: #16a5b5;
+}
 /*underline*/
 .underline{
   text-decoration: underline;
@@ -26,6 +29,9 @@ p{
 .ewt{
   text-align: justify;
 }
+
+
+
 /* IDEA: <a></a> tag */
 
 
