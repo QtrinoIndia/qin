@@ -94,7 +94,7 @@ nav ul li a.contact:hover{
     margin-right:40px;
   }
 }
-@media(max-width: 800px){
+@media(max-width: 900px){
   .checkbtn{
     display: block;
     margin-right: 15px;
@@ -186,7 +186,7 @@ footer div h4{
     padding: 20px 40px;
   }
 }
-@media(max-width:800px){
+@media(max-width:950px){
   footer{
     flex-direction: column;
     justify-content: center;
