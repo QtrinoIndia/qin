@@ -74,8 +74,8 @@ nav ul li a.contact:hover{
   transition: .5s;
 }
 .checkbtn{
-  font-size: 38px;
-  font-family: verdana,sans-serif;
+  font-size: 33px;
+  font-family: serif;
   color: black;
   float: right;
   line-height: 60px;
