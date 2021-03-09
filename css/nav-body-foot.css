@@ -2,6 +2,7 @@
 *{
   text-decoration-line: none;
   box-sizing: border-box;
+
 }
 
 /* NOTE: body */
@@ -16,6 +17,7 @@ nav{
   height: 60px;
   position: fixed;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-tap-highlight-color: transparent;
 }
 
 nav label.logo{
@@ -73,7 +75,7 @@ nav ul li a.contact:hover{
 }
 .checkbtn{
   font-size: 38px;
-  font-family: sans-serif;
+  font-family: verdana,sans-serif;
   color: black;
   float: right;
   line-height: 60px;
@@ -163,6 +165,7 @@ footer{
 }
 .about p{
   color:white;
+  margin: 0px;
 }
 footer div a:link{
   color: white;
@@ -178,8 +181,10 @@ footer div a:hover{
 footer div a:active{
   color: powderblue;
 }
-footer div h4{
+footer div h3{
   padding-bottom: 10px;
+  color: white;
+  text-decoration: underline;
 }
 @media(max-width:1000px){
   footer{
@@ -207,6 +212,7 @@ footer div h4{
 }
 /* NOTE: no text select */
 .noselect {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none!important; /* iOS Safari */
     -webkit-user-select: none!important; /* Safari */
      -khtml-user-select: none!important; /* Konqueror HTML */
